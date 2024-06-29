@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- About Me Section -->
+    <img src="cv photo upload.jpg" alt="profile picture"width="300px" height="320px">
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm Himanshu Garg, a 2nd year student of Btech in CSE . I specialize in Web Development.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Python</li>
+                <li>c++</li>
+                <li>Dsa</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Railway website</h3>
+                    <p>A full deployed project on railway ticket booking system where we can book tickets and get the facilities which is provide by the irctc.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Clean Enviroment Get money</h3>
+                    <p>A government funnded website where we can earn money by disposing the garbage.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Property dealer</h3>
+                    <p>a project to real estate advisor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
